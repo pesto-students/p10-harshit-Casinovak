@@ -1,0 +1,93 @@
+
+
+.headerstrip {
+    background-color: white;
+    color: black;
+    padding: 10px; 
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: white;
+    margin: 2px solid black;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.item1{
+    background-color: white;
+    
+    
+}
+
+.item2{
+    background-color:white;
+    font-style: italic;
+}
+
+.footerstrip{
+    background-color:white;
+    padding: 20px;
+    margin: 2px solid black;
+}
+
+section {
+    padding: 50px;
+    margin: 10px;
+}
+
+@media (max-width: 720px) {
+    .main {
+      flex-direction: column;
+    }
+  }
+
+/*form styling*/
+
+label{
+    font-weight: bold;
+
+}
+input[type="email"],input [type="text"],input [type="tel"],select, textarea {
+    width:70%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-color: darkblue;
+    box-shadow: #ffff;
+}
+
+#fname,#lname,#contact
+    {width:80%;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid;
+    border-color: darkblue;
+    box-shadow: #ffff;}
+
+input[type="button"]{
+    margin-left: 200px;
+    margin-bottom: 70px;
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+input[type="button"]:hover{
+    background-color: blue;
+}
+
+
+.item2 p:hover{
+    background-color: gray;
+}
